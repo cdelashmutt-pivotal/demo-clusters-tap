@@ -37,7 +37,7 @@ tap_install:
           namespace: tanzu-system-ingress
     contour:
       contour:
-        replicas: 3
+        replicas: 2
       infrastructure_provider: aws
       envoy:
         service:
@@ -45,7 +45,7 @@ tap_install:
             external-dns.alpha.kubernetes.io/hostname: '*.aws-work.grogscave.net'
         workload:
           type: Deployment
-          replicas: 3
+          replicas: 2
 
     scanning:
       resources:
