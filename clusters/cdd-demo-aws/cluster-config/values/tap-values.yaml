@@ -17,14 +17,13 @@ tap_install:
 
     ootb_supply_chain_testing_scanning:
       gitops:
-        server_address: https://github.com/
+        server_address: git@github.com:private-repo-org
         repository_owner: cdelashmutt-pivotal
         repository_name: cdd-demo-gitops
         branch: qa
         username: supplychain
         email: cdelashmutt+supplychain@vmware.com
         commit_message: GitOps Commit for Supply Chain
-        ssh_secret: sync-git-ssh
         commit_strategy: pull_request
         pull_request:
           server_kind: github
@@ -107,7 +106,7 @@ tap_install:
       default_parameters:
         supply_chain_service_account:
           secrets:
-          - sync-git-ssh
+          - git-auth
       additional_sources:
         - git:
             ref: origin/main

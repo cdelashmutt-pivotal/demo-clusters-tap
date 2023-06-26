@@ -2,8 +2,6 @@
 apiVersion: secretgen.carvel.dev/v1alpha1
 kind: SecretImport
 metadata:
-  name: sync-git-ssh
-  annotations:
-    tekton.dev/git-0: github.com
+  name: git-auth
 spec:
-  fromNamespace: tanzu-sync
+  fromNamespace: tap-install
