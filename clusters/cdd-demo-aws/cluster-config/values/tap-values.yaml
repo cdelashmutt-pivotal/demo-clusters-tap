@@ -31,6 +31,13 @@ tap_install:
           pull_request_title: Delivery from Supply Chain
           pull_request_body: This is a candidate release for promotion
 
+    local_source_proxy:
+      repository: gcr.io/pa-cdelashmutt/cdd-demo-tap/source
+      push_secret:
+        name: kp-default-repository-secret
+        namespace: build-service
+        create_export: true
+
     accelerator:
       ingress:
         include: true
