@@ -19,6 +19,7 @@ tap_install:
       gitops:
         server_address: https://github.com/
         repository_owner: cdelashmutt-pivotal
+        repository_name: cdd-demo-gitops
         branch: qa
         username: supplychain
         email: cdelashmutt+supplychain@vmware.com
