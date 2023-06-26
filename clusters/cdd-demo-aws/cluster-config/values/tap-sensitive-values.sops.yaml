@@ -9,10 +9,10 @@ tap_install:
             app_config:
                 auth:
                     providers:
-                        github: null
-                        development:
-                            client_id: ENC[AES256_GCM,data:7HqxfDVwdtIbeAlMzphzQkLjQKQ=,iv:7aELrBH3STsUiH31syO81gBxvPSywV6LlriYmT6X2x8=,tag:C3fm/hDFV8JIh/tib2POOw==,type:str]
-                            client_secret: ENC[AES256_GCM,data:Tc5prGFgTqSm2N745SBnaXL/ryavXI86LKsh0G/zs3Y2euK6xi1lxg==,iv:K4+XF/te7zRl/BDEtDecnQ6deIPbpbw5eg4FbQXkUPQ=,tag:MrtS3o3Fkzv5oWTmNo6RZA==,type:str]
+                        github:
+                            development:
+                                client_id: ENC[AES256_GCM,data:1Zs0tj3CKUeJWhxNQBwXMy8AqSg=,iv:QStiBxpCpPRAKspN0rV+3Frvc7qRBte44Uw4v8qSfSY=,tag:4VFtNfQ7EGqVIlTdh8C6Gg==,type:str]
+                                client_secret: ENC[AES256_GCM,data:gDrZdITbEGfXxOX1vfP2TD2RssTk/Xz8yVToISP48jYR1oWs+6agCA==,iv:v9NmOFUYR2ga2vgnbBqp3Bfg8NdyQRKDVrkgYl6xwDY=,tag:Ec2o1cPVdFrQ8m7fdSd/kw==,type:str]
 sops:
     kms: []
     gcp_kms: []
@@ -28,8 +28,8 @@ sops:
             WXRDYWpVOWZBTUdmZ2ptWS9hb2Q1U28KZFHjkLSVyKYwmN5LcoEKNWzVedK8glS5
             RIYa814qyMsIfE07E7EeygokKfLp3pXwpXR1onMEroSx5FdH/x8jwA==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2023-06-26T16:06:21Z"
-    mac: ENC[AES256_GCM,data:7h9LK7VMi9AEBCFgMLSS1imFS2hOYZDJsuk6mK1ZcxEuUVTLfT3hE1UdNOiWfZp5f2d8xCEunLY0BFVbapf9/LbeE9WWDpxGUFBtLzYMEAWArXzSTy5oQY+5KkDZ9CgN8C+gj01d5RXwbHatovCfmMhtTR8BlHXfsBSnrs0JC0M=,iv:pzobYlsk3D+71q8cxnmJP2xf7id8iPQ3CLR+NfG0dE0=,tag:uHAxP1wNDMrvPjVW6skaXw==,type:str]
+    lastmodified: "2023-06-26T16:08:57Z"
+    mac: ENC[AES256_GCM,data:Rh6z4ogYAVOB61NVcRf8DiALHM4gLR24JpMBiTi9b55v1O9AZZc3rL+0AWddnVYB4YeBuPwfowyxuQT5vf9gQyDBhaz51DYPPuHINaoDaPXWNoorxb4VlWoWIewGTmJHEO0JCTgmWQA2o0oxNBcUCaolK5t18xm6zVNO94cvOlw=,iv:P+nvOaCVxbKhUxk7bJ8OTUbO5neW6maWeqP1ULOVN8Q=,tag:H+93BUsmM5NIyc8wBc6F4A==,type:str]
     pgp: []
     unencrypted_suffix: _unencrypted
     version: 3.7.3
