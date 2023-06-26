@@ -48,7 +48,7 @@ tap_install:
 
     cnrs:
       default_tls_secret: default/default-cert
-      domain_template: "{{- .Name}}-{{.Namespace -}}"
+      domain_template: "{{- .Name}}-{{.Namespace -}}.{{.Domain}}"
       ingress:
         external:
           namespace: tanzu-system-ingress
