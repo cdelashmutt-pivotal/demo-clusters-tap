@@ -17,7 +17,7 @@ tap_install:
 
     ootb_supply_chain_testing_scanning:
       gitops:
-        server_address: git@github.com:private-repo-org
+        server_address: https://github.com
         repository_owner: cdelashmutt-pivotal
         repository_name: cdd-demo-gitops
         branch: qa
