@@ -20,11 +20,11 @@ tap_install:
         server_address: https://github.com
         repository_owner: cdelashmutt-pivotal
         repository_name: cdd-demo-gitops
-        branch: origin/qa
+        branch: main
         commit_strategy: pull_request
         pull_request:
           server_kind: github
-          commit_branch: ""
+          commit_branch: qa
           pull_request_title: Delivery from Supply Chain
           pull_request_body: This is a candidate release for promotion
 
