@@ -27,6 +27,7 @@ metadata:
       icon: chat 
 spec:
   profile:
-    displayName: Fname Lname
+    displayName: Chris DeLashmutt
+    picture: https://avatars.githubusercontent.com/u/4999510?v=4
   memberOf:
     - engineering
