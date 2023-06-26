@@ -1,0 +1,90 @@
+---
+tap_install:
+  values:
+    # Non-sensitive TAP Values go here
+    profile: full
+    excluded_packages:
+      - learningcenter.tanzu.vmware.com
+      - workshops.learningcenter.tanzu.vmware.com
+    ceip_policy_disclosed: true
+    shared:
+      ingress_domain: "aws-work.grogscave.net"
+      ingress_issuer: ""
+      image_registry:
+        project_path: "gcr.io/pa-cdelashmutt/cdd-demo-tap/supply-chain"
+      kubernetes_version: "1.25.9"
+    supply_chain: testing-scanning
+
+    accelerator:
+      ingress:
+        include: true
+        enable_tls: true
+      tls:
+        namespace: default
+        secret_name: default-cert
+
+    appliveview_connector:
+      activateAppLiveViewSecureAccessControl: false
+      activateSensitiveOperations: true
+
+    cnrs:
+      default_tls_secret: default/default-cert
+      domain_template: "{{- .Name}}-{{.Namespace -}}"
+      ingress:
+        external:
+          namespace: tanzu-system-ingress
+        internal:
+          namespace: tanzu-system-ingress
+    contour:
+      contour:
+        replicas: 3
+      infrastructure_provider: aws
+      envoy:
+        service:
+          annotations:
+            external-dns.alpha.kubernetes.io/hostname: '*.aws-work.grogscave.net'
+        workload:
+          type: Deployment
+          replicas: 3
+
+    scanning:
+      resources:
+        limits:
+          cpu: "500m"
+          memory: 3Gi
+        requests:
+          cpu: 200m
+          memory: 1Gi
+          
+    tap_gui:
+      service_type: ClusterIP
+      ingressEnabled: "true"
+      tls:
+        namespace: default
+        secretName: default-cert
+      app_config:
+        app:
+          baseUrl: https://tap-gui.aws-work.grogscave.net
+        catalog:
+          locations:
+            - type: url
+              target: https://github.com/tanzu-end-to-end/tap-workshop/blob/main/install/backstage/catalog-info.yaml
+    metadata_store:
+      ns_for_export_app_cert: "*"
+      app_service_type: ClusterIP
+    namespace_provisioner:
+      controller: false
+      gitops_install:
+        ref: origin/main
+        subPath: clusters/cdd-demo-aws/cluster-config/namespace-provisioner/namespaces
+        url: https://github.com/cdelashmutt-pivotal/demo-clusters-tap
+      additional_sources:
+        - git:
+            ref: origin/main
+            subPath: clusters/cdd-demo-aws/cluster-config/namespace-provisioner/testing-scanning-supplychain
+            url: https://github.com/cdelashmutt-pivotal/demo-clusters-tap
+          path: _ytt_lib/testing-scanning-supplychain
+    package_overlays:
+    - name: cert-manager
+      secrets:
+      - name: cert-manager-overlay
