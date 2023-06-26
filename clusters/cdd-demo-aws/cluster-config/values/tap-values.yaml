@@ -104,6 +104,10 @@ tap_install:
         ref: origin/main
         subPath: clusters/cdd-demo-aws/namespace-provisioner/namespaces
         url: https://github.com/cdelashmutt-pivotal/demo-clusters-tap
+      default_parameters:
+        supply_chain_service_account:
+          secrets:
+          - sync-git-ssh
       additional_sources:
         - git:
             ref: origin/main
