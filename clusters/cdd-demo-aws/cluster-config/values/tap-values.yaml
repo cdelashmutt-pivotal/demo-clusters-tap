@@ -65,6 +65,12 @@ tap_install:
       app_config:
         app:
           baseUrl: https://tap-gui.aws-work.grogscave.net
+        auth:
+          environment: development
+          loginPage:
+            github:
+              title: GitHub Login
+              message: Enter your GitHub Account
         catalog:
           locations:
             - type: url
