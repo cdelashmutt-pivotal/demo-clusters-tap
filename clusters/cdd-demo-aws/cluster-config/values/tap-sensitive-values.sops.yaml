@@ -11,8 +11,8 @@ tap_install:
                     providers:
                         github:
                             development:
-                                client_id: ENC[AES256_GCM,data:1Zs0tj3CKUeJWhxNQBwXMy8AqSg=,iv:QStiBxpCpPRAKspN0rV+3Frvc7qRBte44Uw4v8qSfSY=,tag:4VFtNfQ7EGqVIlTdh8C6Gg==,type:str]
-                                client_secret: ENC[AES256_GCM,data:gDrZdITbEGfXxOX1vfP2TD2RssTk/Xz8yVToISP48jYR1oWs+6agCA==,iv:v9NmOFUYR2ga2vgnbBqp3Bfg8NdyQRKDVrkgYl6xwDY=,tag:Ec2o1cPVdFrQ8m7fdSd/kw==,type:str]
+                                clientId: ENC[AES256_GCM,data:4VxtM3TQpfe3CscUfL2OXTuotjs=,iv:fyUaCrTvUR/PhijpVeZ+EyIKNYGyUS8gKxC/OrqKqDE=,tag:Hnk7zxBeUNSVf4XcIkDn4A==,type:str]
+                                clientSecret: ENC[AES256_GCM,data:WNAidnnNRmRmnqnUvzCgNImXcTymHvdI7QfrJO93pwyCR1gjgmFvzg==,iv:q8ZSzdEV1Il+SdCWisAXjNWnrRzLs9yCJQHd+xX4whk=,tag:pbdFH/Ir2kvfEqov9bxeYg==,type:str]
 sops:
     kms: []
     gcp_kms: []
@@ -28,8 +28,8 @@ sops:
             WXRDYWpVOWZBTUdmZ2ptWS9hb2Q1U28KZFHjkLSVyKYwmN5LcoEKNWzVedK8glS5
             RIYa814qyMsIfE07E7EeygokKfLp3pXwpXR1onMEroSx5FdH/x8jwA==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2023-06-26T16:08:57Z"
-    mac: ENC[AES256_GCM,data:Rh6z4ogYAVOB61NVcRf8DiALHM4gLR24JpMBiTi9b55v1O9AZZc3rL+0AWddnVYB4YeBuPwfowyxuQT5vf9gQyDBhaz51DYPPuHINaoDaPXWNoorxb4VlWoWIewGTmJHEO0JCTgmWQA2o0oxNBcUCaolK5t18xm6zVNO94cvOlw=,iv:P+nvOaCVxbKhUxk7bJ8OTUbO5neW6maWeqP1ULOVN8Q=,tag:H+93BUsmM5NIyc8wBc6F4A==,type:str]
+    lastmodified: "2023-06-26T16:10:41Z"
+    mac: ENC[AES256_GCM,data:aoea2RGmV5Ck9641o8UE9Wdj/9KB8x4oWODuAVaDGCaoSDgABxi8Ji6qOO3nNeJD5Q1Rw7yUQ3CW86E436DUEH+66IpiT0imos6COltB/6vvWNLW0hOV5LkcXRQqgL1DhGXniu1dY2MSTyV9DYsoCA07wgRb6cl1ermDi2krTVU=,iv:f2DJJCc2UX67Stk0fJYKY5Rz7mHIAuy4LcHdJTuU948=,tag:voOQLWfU/Ea+xOZpVnxYWA==,type:str]
     pgp: []
     unencrypted_suffix: _unencrypted
     version: 3.7.3
