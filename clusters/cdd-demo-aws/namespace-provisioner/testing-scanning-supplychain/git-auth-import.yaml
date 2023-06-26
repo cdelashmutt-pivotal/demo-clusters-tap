@@ -1,0 +1,8 @@
+---
+apiVersion: v1alpha1
+group: secretgen.carvel.dev
+kind: SecretImport
+metadata:
+  name: sync-git-ssh
+spec:
+  fromNamespace: tanzu-sync
