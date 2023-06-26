@@ -1,6 +1,5 @@
 ---
-apiVersion: v1alpha1
-group: secretgen.carvel.dev
+apiVersion: secretgen.carvel.dev/v1alpha1
 kind: SecretExport
 metadata:
   name: sync-git-ssh
