@@ -76,12 +76,12 @@ tap_install:
       controller: false
       gitops_install:
         ref: origin/main
-        subPath: clusters/cdd-demo-aws/cluster-config/namespace-provisioner/namespaces
+        subPath: clusters/cdd-demo-aws/namespace-provisioner/namespaces
         url: https://github.com/cdelashmutt-pivotal/demo-clusters-tap
       additional_sources:
         - git:
             ref: origin/main
-            subPath: clusters/cdd-demo-aws/cluster-config/namespace-provisioner/testing-scanning-supplychain
+            subPath: clusters/cdd-demo-aws/namespace-provisioner/testing-scanning-supplychain
             url: https://github.com/cdelashmutt-pivotal/demo-clusters-tap
           path: _ytt_lib/testing-scanning-supplychain
     package_overlays:
