@@ -27,7 +27,6 @@ tap_install:
         commit_strategy: pull_request
         pull_request:
           server_kind: github
-          commit_branch: ""
           pull_request_title: Delivery from Supply Chain
           pull_request_body: This is a candidate release for promotion
 
