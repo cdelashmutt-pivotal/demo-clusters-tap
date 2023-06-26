@@ -70,7 +70,7 @@ tap_install:
         catalog:
           locations:
             - type: url
-              target: https://github.com/tanzu-end-to-end/tap-workshop/blob/main/install/backstage/catalog-info.yaml
+              target: https://github.com/cdelashmutt-pivotal/demo-clusters-tap/blob/main/clusters/cdd-demo-aws/backstage-catalog/catalog-info.yaml
     metadata_store:
       ns_for_export_app_cert: "*"
       app_service_type: ClusterIP

@@ -1,0 +1,32 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: spring-sensors
+  description: Spring Sensors
+  tags:
+    - app-accelerator
+    - java
+    - spring
+    - web
+    - tanzu
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=spring-sensors'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  namespace: default
+  name: cdelashmutt-pivotal
+  links:
+    - url:  https://vmware.slack.com/team/W014FRWGC3S
+      title: User Slack Profile
+      icon: chat 
+spec:
+  profile:
+    displayName: Fname Lname
+  memberOf:
+    - engineering
