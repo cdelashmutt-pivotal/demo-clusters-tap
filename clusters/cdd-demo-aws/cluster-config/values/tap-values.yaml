@@ -20,7 +20,7 @@ tap_install:
         server_address: https://github.com
         repository_owner: cdelashmutt-pivotal
         repository_name: cdd-demo-gitops
-        branch: qa
+        branch: origin/qa
         commit_strategy: pull_request
         pull_request:
           server_kind: github
