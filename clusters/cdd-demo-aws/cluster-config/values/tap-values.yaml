@@ -104,6 +104,8 @@ tap_install:
               bucketName: 'cdd-demo-aws-techdocs'
               accountId: '537807987484'
               region: 'us-east-2'
+              credentials:
+                roleArn: arn:aws:iam::537807987484:role/cdd-demo-aws-backstage
     metadata_store:
       ns_for_export_app_cert: "*"
       app_service_type: ClusterIP
