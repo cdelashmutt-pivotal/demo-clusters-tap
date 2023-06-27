@@ -82,6 +82,9 @@ tap_install:
         namespace: default
         secretName: default-cert
       app_config:
+        aws:
+          accountDefaults:
+            region: us-east-2
         app:
           baseUrl: https://tap-gui.aws-work.grogscave.net
         auth:
