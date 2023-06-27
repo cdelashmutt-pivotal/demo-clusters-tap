@@ -96,6 +96,18 @@ tap_install:
               target: https://github.com/cdelashmutt-pivotal/java-rest-service/blob/main/catalog/catalog-info.yaml
             - type: url
               target: https://github.com/cdelashmutt-pivotal/weatherforecast-steeltoe/blob/main/catalog/catalog-info.yaml
+        kubernetes:                                                                                                                                                                                                                                   
+          serviceLocatorMethod:                                                                                                                                                                                                                       
+            type: multiTenant                                                                                                                                                                                                                         
+          clusterLocatorMethods:                                                                                                                                                                                                                      
+          - type: config                                                                                                                                                                                                                              
+            clusters:                                                                                                                                                                                                                                 
+            - url: https://${KUBERNETES_SERVICE_HOST}:${KUBERNETES_SERVICE_PORT}                                                                                                                                                                      
+              name: host                                                                                                                                                                                                                              
+              authProvider: serviceAccount                                                                                                                                                                                                            
+              serviceAccountToken: ${KUBERNETES_SERVICE_ACCOUNT_TOKEN}                                                                                                                                                                                
+              skipTLSVerify: true                                                                                                                                                                                                                     
+              skipMetricsLookup: false  
         techdocs:
           builder: 'external'
           publisher:
