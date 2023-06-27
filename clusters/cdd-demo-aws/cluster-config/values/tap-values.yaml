@@ -97,11 +97,11 @@ tap_install:
           publisher:
             type: 'awsS3'
             awsS3:
-              bucketName: cdd-demo-aws-techdocs
+              bucketName: 'cdd-demo-aws-techdocs'
               accountId: '537807987484'
-              region: us-east-2
+              region: 'us-east-2'
               credentials:
-                roleArn: arn:aws:iam::537807987484:role/cdd-demo-aws-backstage
+                roleArn: 'arn:aws:iam::537807987484:role/cdd-demo-aws-backstage'
     metadata_store:
       ns_for_export_app_cert: "*"
       app_service_type: ClusterIP
