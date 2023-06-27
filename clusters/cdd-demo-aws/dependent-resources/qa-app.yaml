@@ -1,0 +1,14 @@
+---
+apiVersion: kappctrl.k14s.io/v1alpha1
+kind: App
+metadata:
+  name: qa-deliveries
+  namespace: qa
+spec:
+  serviceAccountName: default
+  fetch:
+    - git:
+        url: https://github.com/cdelashmutt-pivotal/cdd-demo-gitops
+        ref: qa
+  deploy:
+    - kapp: {}
