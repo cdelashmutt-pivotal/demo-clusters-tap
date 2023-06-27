@@ -10,5 +10,7 @@ spec:
     - git:
         url: https://github.com/cdelashmutt-pivotal/cdd-demo-gitops
         ref: qa
+  template:
+    - ytt: {}
   deploy:
     - kapp: {}
