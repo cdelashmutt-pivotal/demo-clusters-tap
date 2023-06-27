@@ -9,8 +9,6 @@ apiVersion: tekton.dev/v1beta1
 kind: Pipeline
 metadata:
   name: tekton-pipeline-java
-  labels:
-    apps.tanzu.vmware.com/language: java
   annotations:
     kapp.k14s.io/create-strategy: fallback-on-update
 spec:
