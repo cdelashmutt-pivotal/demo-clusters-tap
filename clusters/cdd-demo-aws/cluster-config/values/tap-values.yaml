@@ -82,10 +82,6 @@ tap_install:
         namespace: default
         secretName: default-cert
       app_config:
-        aws:
-          accountDefaults:
-            region: us-east-2
-            roleName: arn:aws:iam::537807987484:role/cdd-demo-aws-backstage
         app:
           baseUrl: https://tap-gui.aws-work.grogscave.net
         auth:
@@ -127,3 +123,6 @@ tap_install:
     - name: cert-manager
       secrets:
       - name: cert-manager-overlay
+    - name: tap-gui
+      secrets:
+      - name: tap-gui-overlay
