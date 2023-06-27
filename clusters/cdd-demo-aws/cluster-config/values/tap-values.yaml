@@ -98,7 +98,7 @@ tap_install:
             type: 'awsS3'
             awsS3:
               bucketName: cdd-demo-aws-techdocs
-              accountId: 537807987484
+              accountId: '537807987484'
               region: us-east-2
               credentials:
                 roleArn: arn:aws:iam::537807987484:role/cdd-demo-aws-backstage
