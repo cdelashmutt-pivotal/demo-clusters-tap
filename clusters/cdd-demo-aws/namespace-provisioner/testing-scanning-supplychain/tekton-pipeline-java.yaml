@@ -11,6 +11,8 @@ metadata:
   name: tekton-pipeline-java
   annotations:
     kapp.k14s.io/create-strategy: fallback-on-update
+  labels:
+    apps.tanzu.vmware.com/pipeline:  test
 spec:
   params:
     - name: source-url
