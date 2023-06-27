@@ -90,6 +90,18 @@ tap_install:
           locations:
             - type: url
               target: https://github.com/cdelashmutt-pivotal/demo-clusters-tap/blob/main/clusters/cdd-demo-aws/backstage-catalog/catalog-info.yaml
+            - type: url
+              target: https://github.com/tsalm-vmware/spring-cloud-demo-tap/blob/main/tap/catalog/catalog-info.yaml
+        techdocs:
+          builder: 'external'
+          publisher:
+            type: 'awsS3'
+            awsS3:
+              bucketName: cdd-demo-aws-techdocs
+              accountId: 537807987484
+              region: us-east-2
+              credentials:
+                roleArn: arn:aws:iam::537807987484:role/cdd-demo-aws-backstage
     metadata_store:
       ns_for_export_app_cert: "*"
       app_service_type: ClusterIP
