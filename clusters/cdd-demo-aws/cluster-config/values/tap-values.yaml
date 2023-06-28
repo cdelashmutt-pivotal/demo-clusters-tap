@@ -16,9 +16,9 @@ tap_install:
     supply_chain: testing_scanning
 
     appsso:
-      domain_template: {{.Name}}-{{.Namespace}}.{{.Domain}}
-      default_workload_domain_template: {{.Name}}-{{.Namespace}}.{{.Domain}}
-      
+      domain_template: "{{.Name}}-{{.Namespace}}.{{.Domain}}"
+      default_workload_domain_template: "{{.Name}}-{{.Namespace}}.{{.Domain}}"
+
     ootb_supply_chain_testing_scanning:
       gitops:
         server_address: https://github.com
