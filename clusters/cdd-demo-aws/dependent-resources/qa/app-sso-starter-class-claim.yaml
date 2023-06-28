@@ -1,0 +1,13 @@
+apiVersion: services.apps.tanzu.vmware.com/v1alpha1
+kind: ClassClaim
+metadata:
+  name: appsso-starter-java
+  namespace: qa
+spec:
+  classRef:
+    name: sso
+  parameters:
+    redirectPaths:
+      - /login/oauth2/code/appsso-starter-java
+    workloadRef:
+      name: appsso-starter-java
