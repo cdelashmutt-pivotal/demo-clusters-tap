@@ -15,6 +15,10 @@ tap_install:
       kubernetes_version: "1.25.9"
     supply_chain: testing_scanning
 
+    appsso:
+      domain_template: {{.Name}}-{{.Namespace}}.{{.Domain}}
+      default_workload_domain_template: {{.Name}}-{{.Namespace}}.{{.Domain}}
+      
     ootb_supply_chain_testing_scanning:
       gitops:
         server_address: https://github.com

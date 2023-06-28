@@ -17,8 +17,8 @@ sops:
             Y1NBOTBSOWZ6NUFWTkZxTkw3UUNINWcKIIDSUmtENgmsR1dLuR7zCavV7hpO5+Uc
             2myhTfr47k11jRHRYNsdon0PJjo1Jxy2uSL77fBlwmVoq6REImj7GQ==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2023-06-28T02:13:34Z"
-    mac: ENC[AES256_GCM,data:utf6nC8WDRPaCK5DgIf7s9LRB45288yZn0g1DsA7ocvc2A9kbt3bOwox37jrxleStpklYYBylOVyASb3no+ql/vi1Id4Rzah0ZlXSr3pEZ+wgkURMPE/uS4BuhZtvye1TpwE2OXAM0w0hkN4/Pai4SxCCmAEfrBpZitAqyDZJ6c=,iv:PFffj6k4z948U2VbEnypkU2W29FRibGLIlIlUpFZdmM=,tag:C20N0egZyZoQ3beGMU2IZw==,type:str]
+    lastmodified: "2023-06-28T02:25:26Z"
+    mac: ENC[AES256_GCM,data:PZEbH3WbU7WxGIFac618GjNIPXAgyROtBh+ErzWmLfzG6MSRbNdXXiNLJWlyrR7BSCx7zishjzwUbIzMC/zaEtklwMix5zdnzjhE29v3/BvlOf9GMVnXBTiwHskNFQ3ziQwguZL0BjolRZBRL/nzqppJTzPYBlK41QTTbPBJZQM=,iv:NQsdOU6gR3ojHtbhz+gFz5KW9UpgebLrSNj75MOcF98=,tag:ikPT8YLBJC6brDNOKj5OkQ==,type:str]
     pgp: []
     unencrypted_suffix: _unencrypted
     version: 3.7.3
@@ -45,8 +45,8 @@ sops:
             Y1NBOTBSOWZ6NUFWTkZxTkw3UUNINWcKIIDSUmtENgmsR1dLuR7zCavV7hpO5+Uc
             2myhTfr47k11jRHRYNsdon0PJjo1Jxy2uSL77fBlwmVoq6REImj7GQ==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2023-06-28T02:13:34Z"
-    mac: ENC[AES256_GCM,data:utf6nC8WDRPaCK5DgIf7s9LRB45288yZn0g1DsA7ocvc2A9kbt3bOwox37jrxleStpklYYBylOVyASb3no+ql/vi1Id4Rzah0ZlXSr3pEZ+wgkURMPE/uS4BuhZtvye1TpwE2OXAM0w0hkN4/Pai4SxCCmAEfrBpZitAqyDZJ6c=,iv:PFffj6k4z948U2VbEnypkU2W29FRibGLIlIlUpFZdmM=,tag:C20N0egZyZoQ3beGMU2IZw==,type:str]
+    lastmodified: "2023-06-28T02:25:26Z"
+    mac: ENC[AES256_GCM,data:PZEbH3WbU7WxGIFac618GjNIPXAgyROtBh+ErzWmLfzG6MSRbNdXXiNLJWlyrR7BSCx7zishjzwUbIzMC/zaEtklwMix5zdnzjhE29v3/BvlOf9GMVnXBTiwHskNFQ3ziQwguZL0BjolRZBRL/nzqppJTzPYBlK41QTTbPBJZQM=,iv:NQsdOU6gR3ojHtbhz+gFz5KW9UpgebLrSNj75MOcF98=,tag:ikPT8YLBJC6brDNOKj5OkQ==,type:str]
     pgp: []
     unencrypted_suffix: _unencrypted
     version: 3.7.3
@@ -93,8 +93,8 @@ sops:
             Y1NBOTBSOWZ6NUFWTkZxTkw3UUNINWcKIIDSUmtENgmsR1dLuR7zCavV7hpO5+Uc
             2myhTfr47k11jRHRYNsdon0PJjo1Jxy2uSL77fBlwmVoq6REImj7GQ==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2023-06-28T02:13:34Z"
-    mac: ENC[AES256_GCM,data:utf6nC8WDRPaCK5DgIf7s9LRB45288yZn0g1DsA7ocvc2A9kbt3bOwox37jrxleStpklYYBylOVyASb3no+ql/vi1Id4Rzah0ZlXSr3pEZ+wgkURMPE/uS4BuhZtvye1TpwE2OXAM0w0hkN4/Pai4SxCCmAEfrBpZitAqyDZJ6c=,iv:PFffj6k4z948U2VbEnypkU2W29FRibGLIlIlUpFZdmM=,tag:C20N0egZyZoQ3beGMU2IZw==,type:str]
+    lastmodified: "2023-06-28T02:25:26Z"
+    mac: ENC[AES256_GCM,data:PZEbH3WbU7WxGIFac618GjNIPXAgyROtBh+ErzWmLfzG6MSRbNdXXiNLJWlyrR7BSCx7zishjzwUbIzMC/zaEtklwMix5zdnzjhE29v3/BvlOf9GMVnXBTiwHskNFQ3ziQwguZL0BjolRZBRL/nzqppJTzPYBlK41QTTbPBJZQM=,iv:NQsdOU6gR3ojHtbhz+gFz5KW9UpgebLrSNj75MOcF98=,tag:ikPT8YLBJC6brDNOKj5OkQ==,type:str]
     pgp: []
     unencrypted_suffix: _unencrypted
     version: 3.7.3
@@ -125,8 +125,8 @@ sops:
             Y1NBOTBSOWZ6NUFWTkZxTkw3UUNINWcKIIDSUmtENgmsR1dLuR7zCavV7hpO5+Uc
             2myhTfr47k11jRHRYNsdon0PJjo1Jxy2uSL77fBlwmVoq6REImj7GQ==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2023-06-28T02:13:34Z"
-    mac: ENC[AES256_GCM,data:utf6nC8WDRPaCK5DgIf7s9LRB45288yZn0g1DsA7ocvc2A9kbt3bOwox37jrxleStpklYYBylOVyASb3no+ql/vi1Id4Rzah0ZlXSr3pEZ+wgkURMPE/uS4BuhZtvye1TpwE2OXAM0w0hkN4/Pai4SxCCmAEfrBpZitAqyDZJ6c=,iv:PFffj6k4z948U2VbEnypkU2W29FRibGLIlIlUpFZdmM=,tag:C20N0egZyZoQ3beGMU2IZw==,type:str]
+    lastmodified: "2023-06-28T02:25:26Z"
+    mac: ENC[AES256_GCM,data:PZEbH3WbU7WxGIFac618GjNIPXAgyROtBh+ErzWmLfzG6MSRbNdXXiNLJWlyrR7BSCx7zishjzwUbIzMC/zaEtklwMix5zdnzjhE29v3/BvlOf9GMVnXBTiwHskNFQ3ziQwguZL0BjolRZBRL/nzqppJTzPYBlK41QTTbPBJZQM=,iv:NQsdOU6gR3ojHtbhz+gFz5KW9UpgebLrSNj75MOcF98=,tag:ikPT8YLBJC6brDNOKj5OkQ==,type:str]
     pgp: []
     unencrypted_suffix: _unencrypted
     version: 3.7.3
@@ -138,7 +138,6 @@ metadata:
 spec:
     base:
         spec:
-            workloadDomainTemplate: ENC[AES256_GCM,data:KDXi1eF8REgq/jPU4YUzVkpMxruE8wNLzQvoWYmsS6tSlQbP,iv:+czlJ/ptwtBL3CPtKDUkxKQ8f5JDHHP2ba4F51AUKJI=,tag:dWAPzo5rfwkRPD5jvWo8fQ==,type:str]
             authServerSelector:
                 matchLabels:
                     env: ENC[AES256_GCM,data:Ld6D,iv:oXZ54auf6OMJcFmoBu5yjCk/oKKUKeOWRGG9RjCclpc=,tag:ia4zMYx9yiHsUA38wo5/XA==,type:str]
@@ -157,8 +156,8 @@ sops:
             Y1NBOTBSOWZ6NUFWTkZxTkw3UUNINWcKIIDSUmtENgmsR1dLuR7zCavV7hpO5+Uc
             2myhTfr47k11jRHRYNsdon0PJjo1Jxy2uSL77fBlwmVoq6REImj7GQ==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2023-06-28T02:13:34Z"
-    mac: ENC[AES256_GCM,data:utf6nC8WDRPaCK5DgIf7s9LRB45288yZn0g1DsA7ocvc2A9kbt3bOwox37jrxleStpklYYBylOVyASb3no+ql/vi1Id4Rzah0ZlXSr3pEZ+wgkURMPE/uS4BuhZtvye1TpwE2OXAM0w0hkN4/Pai4SxCCmAEfrBpZitAqyDZJ6c=,iv:PFffj6k4z948U2VbEnypkU2W29FRibGLIlIlUpFZdmM=,tag:C20N0egZyZoQ3beGMU2IZw==,type:str]
+    lastmodified: "2023-06-28T02:25:26Z"
+    mac: ENC[AES256_GCM,data:PZEbH3WbU7WxGIFac618GjNIPXAgyROtBh+ErzWmLfzG6MSRbNdXXiNLJWlyrR7BSCx7zishjzwUbIzMC/zaEtklwMix5zdnzjhE29v3/BvlOf9GMVnXBTiwHskNFQ3ziQwguZL0BjolRZBRL/nzqppJTzPYBlK41QTTbPBJZQM=,iv:NQsdOU6gR3ojHtbhz+gFz5KW9UpgebLrSNj75MOcF98=,tag:ikPT8YLBJC6brDNOKj5OkQ==,type:str]
     pgp: []
     unencrypted_suffix: _unencrypted
     version: 3.7.3
