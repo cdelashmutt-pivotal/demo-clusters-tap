@@ -4,21 +4,21 @@
 #@ end
 #! This if condition ensures that this Java Tekton pipeline is only created if the supply chain is testing or testing_scanning, and the TAP profile used is full, iterate or build.
 #@ if/end in_list('supply_chain', ['testing', 'testing_scanning']) and in_list('profile', ['full', 'iterate', 'build']):
----
-apiVersion: apiextensions.k8s.io/v1
-kind: CustomResourceDefinition
-metadata:
-  name: pipelines.tekton.dev
-  annotations:
-    kapp.k14s.io/change-group: tekton-crd
-    kapp.k14s.io/exists: ""
-spec:
-  scope: Namespaced
-  group: tekton.dev
-  versions:
-    - name: v1beta1
-  names:
-    kind: Pipeline
+#! ---
+#! apiVersion: apiextensions.k8s.io/v1
+#! kind: CustomResourceDefinition
+#! metadata:
+#!   name: pipelines.tekton.dev
+#!   annotations:
+#!     kapp.k14s.io/change-group: tekton-crd
+#!     kapp.k14s.io/exists: ""
+#! spec:
+#!   scope: Namespaced
+#!   group: tekton.dev
+#!   versions:
+#!     - name: v1beta1
+#!   names:
+#!     kind: Pipeline
 ---
 apiVersion: tekton.dev/v1beta1
 kind: Pipeline
@@ -26,7 +26,7 @@ metadata:
   name: tekton-pipeline-java
   annotations:
     kapp.k14s.io/create-strategy: fallback-on-update
-    kapp.k14s.io/change-rule.0: "upsert after upserting tekton-crd"
+#!    kapp.k14s.io/change-rule.0: "upsert after upserting tekton-crd"
   labels:
     apps.tanzu.vmware.com/pipeline:  test
 spec:
